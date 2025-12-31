@@ -14,5 +14,7 @@ func sqrt(x float64) string {
 }
 
 func TryIf() {
-	fmt.Println(sqrt(2), sqrt(-4))
+	sizeInByte, error := fmt.Println(sqrt(2), sqrt(-4))
+
+	fmt.Println(sizeInByte, error)
 }
