@@ -73,5 +73,7 @@ func main() {
 	// TryExerciseReader()
 	// TryExerciseRotReader()
 	// TryImage()
-	TryExerciseImage()
+	// TryExerciseImage()
+	// TryIndex()
+	TryList()
 }
